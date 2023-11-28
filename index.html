@@ -9,18 +9,20 @@
 <body>
     
     <main>
-        <section id="login">
-
+        <section id="imagem">
+            <img src="Imagens/pexels-juan-agustin-2340254.jpg" alt="Juan-agustion">
         </section>
-
-        <section id="imagem"></section>
 
          <section id="formulario">
             <h1>Login</h1> 
              <p>Seja bem-vindo(a). Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
 
-              <form action="">
+              <form action="login.php" method="post">
+                <input type="email" name="email" required placeholder="Endereço de e-mail">
+                <br>
+                <input type="password" name="senha" required min="8" max="15" placeholder="Senha">
 
+                 <button>Esqueci a senha</button>
               </form>
          </section>
     </main>
