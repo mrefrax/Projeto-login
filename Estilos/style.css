@@ -2,13 +2,28 @@
 
 @import url('https://fonts.googleapis.com/css2? family= Areia movediça:wght@300 & display=swap');
 
+@media screen and (min-width: 768px) {
+    .main{
+        width: 27%;
+        height: 50%;
+    }
 
+    .container1{
+        display: flex;
+        align-items: center;
+    }
+
+    .imagem{
+        border-radius: 5px 0px 0px 5px;
+    }
+}
 main{
     background-color: gray;
     width: 300px;
     height: 600px;
     border-radius: 5px;
     font-family: 'Quicksand', sans-serif;
+    margin: auto;
 }
 
 img{
