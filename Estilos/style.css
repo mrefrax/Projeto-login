@@ -2,6 +2,17 @@
 
 @import url('https://fonts.googleapis.com/css2? family= Areia movediça:wght@300 & display=swap');
 
+@media screen and (max-width: 600px) {
+    .main{
+        width: 100%;
+    }
+
+    .imagem{
+        width: 100%;
+    }
+    
+}
+
 main{
     background-color: gray;
     width: 300px;
@@ -10,7 +21,7 @@ main{
     font-family: 'Quicksand', sans-serif;
 }
 
-#imagem > img{
+img{
     width: 300px;
     height: 300px;
     border-radius: 5px 5px 0px 0px;
