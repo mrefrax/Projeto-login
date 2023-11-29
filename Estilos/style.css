@@ -20,7 +20,7 @@
 main{
     background-color: gray;
     width: 300px;
-    height: 600px;
+    height: 620px;
     border-radius: 5px;
     font-family: 'Quicksand', sans-serif;
     margin: auto;
@@ -49,12 +49,17 @@ input{
     border: 0px;
 }
 
+.sub{
+    width: 270px;
+    background-color: rgb(233, 233, 3);
+    cursor: pointer;
+}
+
 button{
     margin-left: 10px;
     width: 270px;
     padding: 10px;
     border-radius: 5px;
     border: 0px;
-    background-color: rgb(207, 207, 5);
-    cursor: pointer;
+    background-color: rgb(197, 197, 197);
 }
