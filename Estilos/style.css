@@ -14,14 +14,22 @@
     }
 
     .imagem{
-        border-radius: 5px 0px 0px 5px;
+        border-radius: 15px 0px 0px 15px;
+        width: 420px;
+        height: 459px;
     }
 }
+
+body, html{
+    width: 100vw;
+    height: 100vh;
+}
+
 main{
-    background-color: gray;
+    background-color: rgb(201, 200, 200);
     width: 300px;
     height: 620px;
-    border-radius: 5px;
+    border-radius: 15px;
     font-family: 'Quicksand', sans-serif;
     margin: auto;
 }
@@ -29,7 +37,7 @@ main{
 img{
     width: 300px;
     height: 300px;
-    border-radius: 5px 5px 0px 0px;
+    border-radius: 15px 15px 0px 0px;
 }
 
 h1{
@@ -51,8 +59,9 @@ input{
 
 .sub{
     width: 270px;
-    background-color: rgb(233, 233, 3);
+    background-color: rgb(21, 29, 61);
     cursor: pointer;
+    color: #ffffff;
     margin-bottom: 4px;
 }
 
