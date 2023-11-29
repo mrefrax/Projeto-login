@@ -4,8 +4,8 @@
 
 @media screen and (min-width: 768px) {
     .main{
-        width: 60%;
-        height: 50%;
+        width: 820px;
+        height: 400px;
     }
 
     .container1{
@@ -16,14 +16,10 @@
     .imagem{
         border-radius: 15px 0px 0px 15px;
         width: 420px;
-        height: 459px;
+        height: 400px;
     }
 }
 
-body, html{
-    width: 100vw;
-    height: 100vh;
-}
 
 main{
     background-color: rgb(201, 200, 200);
