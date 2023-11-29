@@ -5,7 +5,7 @@
 @media screen and (min-width: 768px) {
     .main{
         width: 60%;
-        height: 55%;
+        height: 50%;
     }
 
     .container1{
@@ -58,7 +58,7 @@ input{
 button{
     margin-left: 10px;
     width: 270px;
-    padding: 10px;
+    padding: 2px;
     border-radius: 5px;
     border: 0px;
     background-color: rgb(197, 197, 197);
