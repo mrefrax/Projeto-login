@@ -3,9 +3,14 @@
 @import url('https://fonts.googleapis.com/css2? family= Areia movediça:wght@300 & display=swap');
 
 @media screen and (min-width: 768px) {
+    body{
+        background-color: rgb(182, 182, 182);
+    }
+
     .main{
         width: 820px;
         height: 400px;
+        box-shadow: 0px 0px 5px rgba(71, 71, 71, 0.459);
     }
 
     .container1{
@@ -26,6 +31,7 @@ main{
     width: 300px;
     height: 620px;
     border-radius: 15px;
+    box-shadow: 0px 0px 5px rgba(71, 71, 71, 0.459);
     font-family: 'Quicksand', sans-serif;
     margin: auto;
 }
